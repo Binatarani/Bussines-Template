@@ -5,13 +5,8 @@
 }
 
 .section-heading h2 {
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   padding-bottom: 50px;
   line-height: 24px;
-}
-@media only screen and (max-width: 425px) {
-  .section-heading h2 {
-    font-size: 32px;
-  }
 }
