@@ -8,6 +8,7 @@
 }
 .bg-secondery {
   background-color: #1e1d85 !important;
+  padding: 60px 0;
 }
 .text3 {
   font-size: 30px;
@@ -101,7 +102,7 @@
   background-color: transparent !important;
   text-align: start;
 }
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .data1 {
     flex: 0 0 25%;
     max-width: 25%;

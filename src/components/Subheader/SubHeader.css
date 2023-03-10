@@ -1,6 +1,35 @@
-.hero-area img {
-  width: 100%;
+.subheader-area h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  line-height: 30px;
 }
-.hero-area {
-  margin-bottom: 60px;
+.subheader-area h6 {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.subheader-area p {
+  font-size: 22px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 425px) {
+  .subheader-area h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 10px;
+  }
+  .subheader-area h6 {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .subheader-area p {
+    font-size: 15px;
+    line-height: 15px;
+    margin-top: 10px;
+  }
+  .subheader-area button {
+    font-size: 12px;
+  }
 }

@@ -3,8 +3,8 @@ import "./SectionHeading.css";
 
 const SectionHeading = (props) => {
   return (
-    <section className="section-heading mt-2">
-      <h3>{props.heading}</h3>
+    <section className="section-heading">
+      <h2>{props.heading}</h2>
     </section>
   );
 };

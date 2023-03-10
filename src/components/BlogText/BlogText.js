@@ -14,7 +14,7 @@ const BlogText = () => {
             {/* card1 */}
             <div className="card1 boder-0 pb-6 mb-6 boder-bottom">
               <div className="image-div position-realative d-flex align-items-end card-image-top">
-                <img src={Image4} alt="" className="w-100" />
+                <img src={Image3} alt="" className="w-100" />
               </div>
               <div className="text-div">
                 <h3 className="mt-4">Modern Apartment</h3>
@@ -31,7 +31,7 @@ const BlogText = () => {
             {/* card 2 */}
             <div className="card1 boder-0 pb-6 mb-6 boder-bottom mt-5">
               <div className="image-div position-realative d-flex align-items-end card-image-top">
-                <img src={Image3} alt="" className="w-100" />
+                <img src={Image4} alt="" className="w-100" />
               </div>
               <div className="text-div">
                 <h3 className="mt-4">Modern Apartment</h3>

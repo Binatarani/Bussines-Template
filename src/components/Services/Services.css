@@ -1,5 +1,6 @@
 .service-area {
-  padding: 65px 0;
+  padding: 60px 0;
+  background-color: #fafafa;
 }
 
 .btn.btn-theme {
@@ -12,13 +13,8 @@
   font-size: 32px;
   text-align: center;
 }
-@media (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .service-area {
     padding: 40px 0;
-  }
-}
-@media (max-width: 768px) {
-  .service-area {
-    padding: 10px 0;
   }
 }

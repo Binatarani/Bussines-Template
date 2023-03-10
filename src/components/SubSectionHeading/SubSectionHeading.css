@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .sub-section-heading h5 {
     font-size: 15px;
     text-align: center;

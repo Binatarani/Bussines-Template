@@ -1,13 +1,13 @@
 .contact-area {
-  padding: 65px 0;
-  background-color: #e6e8f0;
+  padding: 60px 0;
+  background-color: #fafafa;
 }
 
 .text-name h5 {
   font-size: 15px;
 }
 
-@media (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   .col-lg-3 {
     flex: 0 0 auto;
     width: 25%;
