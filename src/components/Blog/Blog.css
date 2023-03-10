@@ -1,0 +1,16 @@
+.blog-section {
+  padding-bottom: 25px;
+}
+.blog1 {
+  padding: 50px 0;
+}
+@media (max-width: 1024px) {
+  .blog-area {
+    padding: 30px 0px;
+  }
+}
+@media (max-width: 768px) {
+  .blog1 {
+    padding: 20px 0;
+  }
+}

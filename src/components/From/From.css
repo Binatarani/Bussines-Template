@@ -1,0 +1,26 @@
+.contact-text ul li i {
+  margin-right: 15px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #ef6d58;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.contact-text ul li a {
+  color: #1e1a1a;
+  text-decoration: none;
+}
+
+.contact-text ul li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.contact-form {
+  padding: 50px;
+  background-color: #fff;
+}

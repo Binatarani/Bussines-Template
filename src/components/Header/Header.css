@@ -1,0 +1,54 @@
+.header .navbar-nav a {
+  margin-left: 25px;
+}
+.header-area {
+  background-color: #1e1d85;
+}
+.header-area .navbar-nav a {
+  color: #fff;
+}
+.header-area .navbar-nav a:first-child {
+  color: #fff;
+}
+.header-area .navbar-nav a.btn {
+  background-color: transparent;
+  color: #fff;
+  color: #fff;
+  min-width: 120px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out;
+  margin-left: 10px;
+}
+.header-area .navbar-nav .btn:hover {
+  background-color: #0ec6d5;
+  border-color: 1px solid #0ec6d5;
+}
+.header-area .btn:focus {
+  box-shadow: 0 0 0 0.25rem rgba(211, 215, 222, 0.25);
+  outline: 0;
+}
+
+@media (max-width: 768px) {
+  .header-area.nav-item {
+    margin: 5px 0;
+  }
+  .navbar-toggler:focus {
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .navbar-collapse {
+    text-align: center;
+  }
+}

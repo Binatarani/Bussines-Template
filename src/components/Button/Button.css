@@ -1,0 +1,12 @@
+.button-text Button {
+  background-color: #0ec6d5;
+  border-color: #0ec6d5;
+  color: #fff;
+  display: block;
+  margin-top: 40px;
+  box-shadow: none;
+}
+.button-text Button:hover {
+  background-color: transparent;
+  color: #b03737;
+}

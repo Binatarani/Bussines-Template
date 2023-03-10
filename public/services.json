@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": " Property Management",
+    "price": "300$",
+    "description": "Working with @homeID is like having a family member who can fix everything. They know what you need ,exactly when you need it.",
+    "button": "More About Me",
+    "img": "https://homeid-elementor-demo8.g5plus.net/wp-content/uploads/2020/10/single-property-06.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mortgage Service",
+    "price": "400$",
+    "description": "Very good and fast support during the week. Sloved all my problems in a pressing time! Excited to see the other themes they make!",
+    "button": "More About Me",
+    "img": "https://homeid-elementor-demo8.g5plus.net/wp-content/uploads/2020/10/single-property-07.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Consulting Service",
+    "price": "500$",
+    "description": "I wise I whould have thought of it first. Real estate is both attractive and highly adaptable. Nice work on your real estate...",
+    "button": "More About Me",
+    "img": "https://templates.g5plus.net/homeid/images/properties-grid-41.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Recover Asset Value",
+    "price": "300$",
+    "description": "Real estate saved my business. Very good and fast support during the week. Solved all my problems in a pressing time.",
+    "button": "More About Me",
+    "img": "https://homeid-elementor-demo8.g5plus.net/wp-content/uploads/2020/10/single-property-14.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Home Buying",
+    "price": "200$",
+    "description": "Very good and fast support during the week. Sloved all my problems in a pressing time. They know what you need!",
+    "button": "More About Me",
+    "img": "https://homeid-elementor-demo8.g5plus.net/wp-content/uploads/2020/10/single-property-16.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Home Selling",
+    "price": "200$",
+    "description": "Working with @homeID is like having a family member who can fix everything. They know what you need!",
+    "button": "More About Me",
+    "img": "https://homeid-elementor-demo8.g5plus.net/wp-content/uploads/2020/10/single-property-15.jpg"
+  }
+]

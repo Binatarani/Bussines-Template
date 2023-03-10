@@ -1,0 +1,112 @@
+.bg-patten {
+  padding: 65px 0;
+  background-image: url(../../images/pattern-01.png),
+    url(../../images/pattern-02.png);
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
+.bg-secondery {
+  background-color: #1e1d85 !important;
+}
+.text3 {
+  font-size: 30px;
+  max-width: 589px;
+  margin: 0 auto;
+  line-height: 1.625 !important;
+}
+
+.heading-divider {
+  display: block;
+  width: 75px;
+  height: 3px;
+  margin-top: 19px;
+  margin-bottom: 21px;
+  background-color: #0ec6d5;
+}
+.info-box-3 {
+  /* max-width: 972px; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* card */
+.data1 {
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  position: relative;
+  width: 100%;
+  opacity: 1;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.card {
+  text-decoration: none;
+  align-items: center;
+  border: none !important;
+  justify-content: center;
+  background-color: transparent !important;
+  transition: all 0.2s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 5px;
+}
+.position-relative {
+  position: relative !important;
+  box-sizing: border-box;
+  display: block;
+}
+.card :hover {
+  background-color: #fff !important;
+}
+.card-img-top {
+  justify-content: center !important;
+  align-items: center !important;
+  background-color: transparent !important;
+}
+
+.hover-change-image .image {
+  transition: all 0.3s;
+}
+.hover-change-image .image img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.hover-change-image .hover-image a {
+  color: #fff !important;
+}
+.hover-change-image .image a {
+  color: #fff !important;
+}
+.hover-image img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  text-decoration: none;
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body1 {
+  text-decoration: none;
+  background-color: transparent !important;
+  text-align: start;
+}
+@media (min-width: 768px) {
+  .data1 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  .border-md-right {
+    border-right: 1px solid #eee !important;
+  }
+}

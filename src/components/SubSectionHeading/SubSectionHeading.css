@@ -1,0 +1,15 @@
+.sub-section-heading {
+  text-align: center;
+}
+
+.sub-section-heading h5 {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .sub-section-heading h5 {
+    font-size: 15px;
+    text-align: center;
+  }
+}

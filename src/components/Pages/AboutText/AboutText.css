@@ -1,0 +1,41 @@
+.about-text-area {
+  padding: 65px 0;
+
+  background-image: url(../../../images/pattern-05.png),
+    url(../../../images/bg.png);
+  background-position: left bottom, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto, auto;
+}
+
+.icon-div {
+  font-size: 100px;
+}
+
+.section-heading {
+  margin-bottom: 50px;
+}
+.single-service {
+  padding: 50px;
+  border: 1px solid #f3d1bf;
+}
+.shadow-2 {
+  border: none !important;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .about-text-area {
+    padding: 35px 0;
+  }
+  .section-heading {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 425px) {
+  .about-text-area {
+    padding: 25px 0;
+  }
+  .section-heading {
+    margin-bottom: 20px;
+  }
+}
