@@ -38,7 +38,7 @@ const BuyOrSell = () => {
                   />
                   <img src={Image2} alt="#" className="image" />
                   <div className="card-body1 px-0 pt-5 pb-0">
-                    <h5 className="card-title fs-16 lh-2 text-white mb-0 ms-0">
+                    <h5 className="card-title fs-16 lh-2 text-white mb-0 ms-0 mt-2">
                       Apartment
                     </h5>
                   </div>
@@ -64,7 +64,7 @@ const BuyOrSell = () => {
                   <img src={Image4} alt="#" className="image" />
                   <div className="card-body1 px-0 pt-5 pb-0">
                     <h5 className="card-title fs-16 lh-2 text-white mb-0 ms-0">
-                      Apartment
+                      House
                     </h5>
                   </div>
                 </div>
@@ -88,7 +88,7 @@ const BuyOrSell = () => {
                   />
                   <img src={Image6} alt="#" className="image" />
                   <div className="card-body1 px-0 pt-5 pb-0">
-                    <h5 className="card-title fs-16 lh-2 text-white mb-0 ms-0">
+                    <h5 className="card-title fs-16 lh-2 text-white mb-0 mt-4 ms-0">
                       Office
                     </h5>
                   </div>
@@ -113,7 +113,7 @@ const BuyOrSell = () => {
                   />
                   <img src={Image8} alt="#" className="image" />
                   <div className="card-body1 px-0 pt-5 pb-0">
-                    <h5 className="card-title fs-16 lh-2 text-white mb-0 ms-0">
+                    <h5 className="card-title fs-16 lh-2 text-white mb-0 ms-0 mt-3">
                       Villa
                     </h5>
                   </div>

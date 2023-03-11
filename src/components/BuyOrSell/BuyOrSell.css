@@ -81,10 +81,11 @@
   overflow-clip-margin: content-box;
   overflow: clip;
 }
-.hover-change-image .hover-image a {
+.data .hover-change-image a .hover-image {
   color: #fff !important;
 }
-.hover-change-image .image a {
+
+.data1 .hover-change-image a .image {
   color: #fff !important;
 }
 .hover-image img {
