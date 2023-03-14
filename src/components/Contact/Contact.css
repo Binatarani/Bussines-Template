@@ -1,10 +1,19 @@
 .contact-area {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  margin-top: 5px;
   background-color: #fafafa;
 }
-
 .text-name h5 {
   font-size: 15px;
+}
+.heading-divider2 {
+  display: block;
+  width: 75px;
+  height: 3px;
+  margin-top: 19px;
+  margin-bottom: 21px;
+  background-color: #0ec6d5;
 }
 
 @media only screen and (max-width: 992px) {

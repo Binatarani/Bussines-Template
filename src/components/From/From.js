@@ -8,15 +8,11 @@ import "./From.css";
 
 const From = () => {
   return (
-    <section className="from-area py-5">
+    <section className="from-area py-3">
       <Container>
         <Row className="align-items-center">
           <Col lg={5}>
             <div className="contact-text">
-              <h6 className="mb-5 text-grey">
-                For more information about our services, get in touch with our
-                expert consultants. We'ar always eager to hear from you!
-              </h6>
               <ul>
                 <li>
                   <a href="mailto:binatarani.bd@gmail.com">

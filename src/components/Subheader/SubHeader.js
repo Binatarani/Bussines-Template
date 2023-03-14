@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-import Slider1 from "../../images/bg-slider-01.jpg";
-import Slider2 from "../../images/bg-slider-02.jpg";
-import Slider3 from "../../images/bg-slider-03.jpg";
+import Slider1 from "../../images/bg-slider-03 (1).jpg";
+import Slider2 from "../../images/bg-slider-01 (1).jpg";
+import Slider3 from "../../images/bg-slider-02 (1).jpg";
 import "./SubHeader.css";
 const SubHeader = () => {
   return (
@@ -14,7 +14,7 @@ const SubHeader = () => {
             <p>FOR SALE</p>
             <h2>Villa On Hollywoo Boulvard</h2>
             <h6>I Capture Excelent Moments and Memory.</h6>
-            <button className="btn btn-info text-white">More About Me</button>
+            <button className="btn text-white">More About Me</button>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

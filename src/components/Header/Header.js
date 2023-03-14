@@ -3,7 +3,8 @@ import { NavLink, Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
-import Logo from "../../images/logo-white.png";
+import Logo from "../../images/logo.png";
+import Logo1 from "../../images/logo-white.png";
 import { useAuthState } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
 import "./Header.css";
@@ -19,7 +20,8 @@ const Header = () => {
       <Navbar expand="lg" className="py-3">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img src={Logo} alt="" />
+            <img src={Logo} alt="" className="d-none d-lg-inline-block" />
+            <img src={Logo1} alt="d-inline-block d-lg-none" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -32,6 +34,9 @@ const Header = () => {
               </NavLink>
               <NavLink to="/blog" className="nav-link">
                 Blog
+              </NavLink>
+              <NavLink to="/contact" className="nav-link">
+                Contact
               </NavLink>
               {user ? (
                 <Button

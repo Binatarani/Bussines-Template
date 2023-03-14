@@ -2,10 +2,8 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Service from "../Service/Service";
 import SectionHeading from "../SectionHeading/SectionHeading";
-
 import "./Services.css";
 import { useEffect, useState } from "react";
-
 const Services = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
@@ -15,7 +13,8 @@ const Services = () => {
   }, []);
   return (
     <section className="service-area">
-      <SectionHeading heading="My Service" />
+      <SectionHeading heading="Service Offered" />
+      <span className="heading-divider2 mx-auto"></span>
       <Container>
         <Row>
           {services.map((item) => (

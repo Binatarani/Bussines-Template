@@ -4,11 +4,14 @@
   width: 40px;
   line-height: 40px;
   text-align: center;
-  background-color: #ef6d58;
+  background-color: #0ec6d5;
   font-size: 16px;
   color: #fff;
   border-radius: 50px;
   margin-top: 20px;
+}
+.contact-text ul li i:hover {
+  background-color: #17a2b8;
 }
 .contact-text ul li a {
   color: #1e1a1a;

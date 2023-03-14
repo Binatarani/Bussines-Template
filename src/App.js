@@ -9,6 +9,7 @@ import NotFound from "./components/Pages/NotFound/NotFound";
 import Reg from "./components/Reg/Reg";
 import Login from "./components/Login/Login";
 import RequireAuth from "./components/RequireAuth/RequireAuth";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             </RequireAuth>
           }
         />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/reg" element={<Reg />} />
         <Route path="/login" element={<Login />} />
         <Route path="*" element={<NotFound />} />

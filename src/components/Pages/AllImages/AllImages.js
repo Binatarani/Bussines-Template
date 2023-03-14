@@ -12,7 +12,7 @@ const AllImages = () => {
   }, []);
 
   return (
-    <div className="all-image mt-4 mb-0">
+    <div className="all-image mt-5 mb-0">
       <Container>
         <Row>
           {images.map((item) => (

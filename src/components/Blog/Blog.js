@@ -9,6 +9,7 @@ const Blog = () => {
       <img className="d-block w-100 mb-3" src={SubImage} alt="" />
       <div className="blog1">
         <SectionHeading heading=" My Blog" />
+        <span className="heading-divider2 mx-auto"></span>
         <BlogText />
       </div>
     </section>

@@ -1,35 +1,87 @@
-.subheader-area h2 {
-  font-size: 40px;
+.subheader-area .carousel-caption h2 {
+  font-size: 45px;
   margin-bottom: 20px;
   line-height: 30px;
 }
-.subheader-area h6 {
-  font-size: 20px;
+.subheader-area .carousel-caption h6 {
+  font-size: 25px;
   line-height: 40px;
+  margin-bottom: 30px;
 }
 
-.subheader-area p {
+.subheader-area .carousel-caption p {
   font-size: 22px;
   line-height: 20px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3.25px;
+}
+.subheader-area .carousel-caption button {
+  font-size: 16px;
+  margin-bottom: 150px;
+  background-color: #0ec6d5;
+  border-color: #0ec6d5;
+}
+.subheader-area .carousel-caption button:hover {
+  background-color: #17a2b8;
+  border: 1px solid transparent;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.12);
+}
+.subheader-area .carousel-indicators button {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .subheader-area .carousel-caption button {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .subheader-area .carousel-caption button {
+    margin-bottom: 90px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .subheader-area .carousel-caption h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .subheader-area .carousel-caption h6 {
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+
+  .subheader-area .carousel-caption p {
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 25px;
+  }
+  .subheader-area .carousel-caption button {
+    font-size: 15px;
+    margin-bottom: 55px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-  .subheader-area h2 {
+  .subheader-area .carousel-caption h2 {
     font-size: 20px;
     margin-bottom: 10px;
     line-height: 10px;
   }
-  .subheader-area h6 {
-    font-size: 12px;
-    line-height: 15px;
+  .subheader-area .carousel-caption h6 {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 15px;
   }
 
-  .subheader-area p {
+  .subheader-area .carousel-caption p {
     font-size: 15px;
-    line-height: 15px;
-    margin-top: 10px;
+    margin-bottom: 15px !important;
   }
-  .subheader-area button {
+  .subheader-area .carousel-caption button {
     font-size: 12px;
+    margin-bottom: 5px;
   }
 }

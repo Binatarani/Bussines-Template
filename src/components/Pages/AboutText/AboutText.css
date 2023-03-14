@@ -1,6 +1,4 @@
 .about-text-area {
-  padding: 60px 0;
-
   background-image: url(../../../images/pattern-05.png),
     url(../../../images/bg.png);
   background-position: left bottom, right top;
@@ -23,10 +21,8 @@
   border: none !important;
   background-color: #fff;
 }
+
 @media only screen and (max-width: 768px) {
-  .about-text-area {
-    padding: 35px 0;
-  }
   .section-heading {
     margin-bottom: 30px;
   }

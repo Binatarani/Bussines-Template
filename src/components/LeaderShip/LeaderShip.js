@@ -18,7 +18,7 @@ const LeaderShip = () => {
       <Container>
         <SectionHeading heading="LeaderShip" />
         <SubSectionHeading heading="Our LeaderShip Member So Frendly Behavier. Anytime You Come My Homesite and Visit Our Website." />
-        <Row className="mx-lg-n6 mt-8 mb-5">
+        <Row className="mx-lg-n6 mt-8">
           <Col className="col-md-4 col-sm-12 mb-md-7 mb-4 px-lg-6">
             <div className="card boder-0 text-center">
               <div className="rounded overflow-hidden bg-hover-overlay d-inline-block ">
@@ -57,7 +57,7 @@ const LeaderShip = () => {
             </div>
           </Col>
         </Row>
-        <Row className="mx-lg-n6 mt-8 mb-5">
+        <Row className="mx-lg-n6">
           <Col className="col-md-3 col-sm-12 mb-md-7 mb-4 px-lg-6">
             <div className="card boder-0 text-center">
               <div className="rounded overflow-hidden bg-hover-overlay d-inline-block ">

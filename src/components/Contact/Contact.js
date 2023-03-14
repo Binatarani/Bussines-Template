@@ -8,6 +8,7 @@ const Contact = () => {
     <section className="contact-area">
       <h5 className="text-center mb-3">Get In Touch</h5>
       <SectionHeading heading="Contact Me" />
+      <span className="heading-divider2 mx-auto"></span>
       <From />
     </section>
   );
